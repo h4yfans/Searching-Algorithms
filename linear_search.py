@@ -1,4 +1,4 @@
-def search(mylist,n):
+def search(mylist, n):
     for item in mylist:
         if item == n:
             return True
@@ -6,7 +6,7 @@ def search(mylist,n):
     return False
 
 
-mylist = [5,8,4,6,9,2]
+mylist = [5, 8, 4, 6, 9, 2]
 n = 4
 
 if search(mylist, n):
